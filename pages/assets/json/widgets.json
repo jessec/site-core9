@@ -8,10 +8,31 @@
     "steps":"site/blocks/block-video/video/steps/steps.json"
   },
     "slider":{
-    "steps":"site/blocks/block-video/video/steps/steps.json"
+    "template":"site/blocks/block-video/slider/tpl/site-block-slider.soy",
+    "steps":"site/blocks/block-video/slider/steps/steps.json"
   },
     "icon":{
     "template":"site/blocks/block-video/icon/tpl/site-block-icon.soy",
     "steps":"site/blocks/block-video/icon/steps/steps.json"
+  },
+    "smallvideo":{
+    "template":"site/blocks/block-video/smallvideo/tpl/site-block-smallvideo.soy",
+    "steps":"site/blocks/block-video/smallvideo/steps/steps.json"
+  },
+    "photo":{
+    "template":"site/blocks/block-video/photo/tpl/site-block-photo.soy",
+    "steps":"site/blocks/block-video/photo/steps/steps.json"
+  },
+    "smallphoto":{
+    "template":"site/blocks/block-video/smallphoto/tpl/site-block-smallphoto.soy",
+    "steps":"site/blocks/block-video/smallphoto/steps/steps.json"
+  },
+    "text":{
+    "template":"site/blocks/block-video/text/tpl/site-block-text.soy",
+    "steps":"site/blocks/block-video/text/steps/steps.json"
+  },
+    "smalltext":{
+    "template":"site/blocks/block-video/smalltext/tpl/site-block-smalltext.soy",
+    "steps":"site/blocks/block-video/smalltext/steps/steps.json"
   }
 }

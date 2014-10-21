@@ -1,13 +1,8 @@
-
-#main-section {
-  min-height:900px;
-}
-
-#menu {
-	
-	  position: absolute;
-	  margin-left:-480px;
-	  left:50%;
-	  margin-top: 0px;
-	  
+/* All pages */
+.block {
+	margin-top: 15px;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	background-color: #fff;
 }

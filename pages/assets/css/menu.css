@@ -1,23 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 /*Strip the ul of padding and list styling*/
-ul {
+ul#menu {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	_position: absolute;
-	border: 1px solid #444242;
+	position: relative; /** <- makes it horizontal **/
+	width: 26em;
 }
 
 /*Create a horizontal list with spacing*/
-li {
-	display: inline-block;
-	float: left;
+ul#menu li.menu-item {
+	display: block;
+	_float: left; /** <- makes it horizontal **/
 	margin-right: 1px;
-	width: 100%;
-	margin-left: -10px;
 }
 
 /*Style for menu links*/
-li a {
+li.menu-item a.menu-link {
 	display: block;
 	min-width: 140px;
 	height: 50px;
@@ -30,58 +32,57 @@ li a {
 }
 
 /*Hover state for top level links*/
-li:hover a {
+li.menu-item:hover a.menu-link {
 	background: #19c589;
 }
 
 /*Style for dropdown links*/
-li:hover ul a {
+
+ul.hidden {
+  /** this makes it go left **/
+  position:absolute;
+  top:0px;
+  left:26em;
+  margin-left:0px;
+  width:400px;
+  background-color:#ccc;
+  z-index: 99999;
+}
+
+li.menu-item:hover ul.hidden a.menu-link {
 	background: #f3f3f3;
 	color: #2f3036;
 	height: 40px;
 	line-height: 40px;
-	margin-left: 20px;
-	z-index: 99999;
 }
 
 /*Hover state for dropdown links*/
-li:hover ul a:hover {
+li.menu-item:hover ul.hidden a.menu-link:hover {
 	background: #19c589;
 	color: #fff;
 }
 
-/*Hide dropdown links until they are needed */
-/* horizontal */
-li ul {
+/*Hide dropdown links until they are needed*/
+li.menu-item ul.hidden {
 	display: none;
-	left: 240px;
-	top: 40px;
-	position: absolute;
-	z-index: 99999;
-	width: 300px;
-	min-height:400px;
-	background-color:#ccc;
-	/*
-	*  display: none;
-	*  // for only vertical
-	*/
+	height: 100%;
 }
 
 /*Make dropdown links vertical*/
-li ul li {
+li.menu-item ul.hidden li.menu-item {
 	display: block;
 	float: none;
 }
 
 /*Prevent text wrapping*/
-li ul li a {
+li.menu-item ul.hidden li.menu-item a.menu-link {
 	width: auto;
 	min-width: 100px;
 	padding: 0 20px;
 }
 
 /*Display the dropdown on hover*/
-ul li a:hover+.hidden, .hidden:hover {
+ul#menu li.menu-item:hover .hidden, .hidden:hover {
 	display: block;
 }
 
@@ -97,28 +98,34 @@ ul li a:hover+.hidden, .hidden:hover {
 }
 
 /*Hide checkbox*/
-input[type=checkbox] {
+input#show-menu[type=checkbox] {
 	display: none;
+	-webkit-appearance: none;
 }
 
 /*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu {
+input#show-menu[type=checkbox]:checked ~ #menu {
 	display: block;
 }
 
 /*Responsive Styles*/
 @media screen and (max-width : 760px) {
 	/*Make dropdown links appear inline*/
-	ul {
+	ul#menu {
 		position: static;
 		display: none;
 	}
 	/*Create vertical spacing*/
-	li {
+	li.menu-item {
 		margin-bottom: 1px;
 	}
+	ul.hidden {
+  /** this makes it go left **/
+    position:static;
+    margin-left:20px;
+  }
 	/*Make all menu links full width*/
-	ul li, li a {
+	ul#menu li.menu-item, li.menu-item a.menu-link {
 		width: 100%;
 	}
 	/*Display 'show menu' link*/

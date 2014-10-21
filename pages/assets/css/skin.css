@@ -1,0 +1,61 @@
+
+body {
+  background-color: #fff;
+}
+
+header {
+  	background-image: url('../images/placeholders/menu_background_(14x125).jpg');
+  	height: 140px;
+	text-align: center;
+	background-repeat: repeat-x;
+}
+
+main {
+  background-color: #fff;
+}
+
+main>footer {
+	background-color: #ccc;
+}
+
+footer > nav {
+  background-color: olive;
+}
+
+
+nav {
+  background-color: brown;
+}
+
+footer {
+  background-color: #fff;
+}
+
+/* specials */
+
+#slider {
+  background-color: #fff;
+}
+
+.content-area {
+  background-color: #aff;
+}
+
+.product {
+  background-color: #fff;
+}
+
+.page-nav-left {
+  background-color: #000;
+  color: #fff;
+}
+
+.page-nav-middle {
+  background-color: #fff;
+  color: #fff;
+}
+
+.page-nav-right {
+  background-color: #000;
+  color: #fff;
+}
