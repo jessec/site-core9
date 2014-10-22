@@ -34,14 +34,14 @@ nav {
 
 figure {
   margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
+  _margin-left: 10px;
+  _margin-right: 10px;
 }
 
 article {
   margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
+  _margin-left: 10px;
+  _margin-right: 10px;
 }
 
 
