@@ -1,8 +1,17 @@
 /* All pages */
 .block {
-	margin-top: 15px;
+	margin-top: 1.7em;
 	overflow: hidden;
 	float: left;
 	width: 100%;
 	background-color: #fff;
+	border: 1px solid #ccc;
+}
+
+.inline {
+  display: inline;
+}
+
+.left {
+	margin-right:1.7em;
 }

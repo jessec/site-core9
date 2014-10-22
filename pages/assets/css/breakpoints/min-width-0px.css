@@ -1,15 +1,38 @@
-.inline {
-	display: inline;
-}
-
-/** front page **/
 .slider {
-	max-width: 94.5em;
+	max-width: 94em;
 	max-height: 43em;
 }
 
 .article {
-	max-width: 100%;
+	max-width: 86.5em;
 }
 
-/** footer **/
+.smallvideo {
+	max-width: 30em;
+	height: 43em;
+}
+
+.text {
+	max-width: 62em;
+	height: 43em;
+}
+
+.smallphoto {
+	max-width: 30em;
+	height: 43em;
+}
+
+.photo {
+	max-width: 62em;
+	height: 43em;
+}
+
+.video {
+	max-width: 62em;
+	height: 43em;
+}
+
+.smalltext {
+	max-width: 30em;
+	height: 43em;
+}
