@@ -11,6 +11,9 @@ header {
 }
 
 main {
-  background-color: #fff;
+  background-color: #cca;
 }
 
+.block > div {
+  border: 1px solid #ccc;
+}

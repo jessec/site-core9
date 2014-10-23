@@ -5,7 +5,10 @@
 	float: left;
 	width: 100%;
 	background-color: #fff;
-	border: 1px solid #ccc;
+}
+
+.block > div {
+	 height:428px;
 }
 
 .inline {
@@ -14,4 +17,8 @@
 
 .left {
 	margin-right:1.7em;
+}
+
+.right {
+  margin-left:1.7em;
 }

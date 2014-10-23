@@ -1,36 +1,33 @@
 .slider {
-	max-width: 94em;
-	max-height: 43em;
+	max-width: 100%;
 }
-
-
 
 .smallvideo {
 	max-width: 30em;
-	height: 43em;
 }
 
 .text {
-	max-width: 64em;
-	height: 43em;
+	max-width: 67em;
+}
+
+.text>div {
+	float: left;
+	width: 65.3em;
+	overflow: hidden;
 }
 
 .smallphoto {
 	max-width: 30em;
-	height: 43em;
 }
 
 .photo {
-  max-width: 64em;
-	height: 43em;
+	max-width: 67em;
 }
 
 .video {
-  max-width: 64em;
-	height: 43em;
+	max-width: 67em;
 }
 
 .smalltext {
 	max-width: 30em;
-	height: 43em;
 }
