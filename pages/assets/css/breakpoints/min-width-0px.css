@@ -1,0 +1,36 @@
+.slider {
+	max-width: 94em;
+	max-height: 43em;
+}
+
+
+
+.smallvideo {
+	max-width: 30em;
+	height: 43em;
+}
+
+.text {
+	max-width: 64em;
+	height: 43em;
+}
+
+.smallphoto {
+	max-width: 30em;
+	height: 43em;
+}
+
+.photo {
+  max-width: 64em;
+	height: 43em;
+}
+
+.video {
+  max-width: 64em;
+	height: 43em;
+}
+
+.smalltext {
+	max-width: 30em;
+	height: 43em;
+}

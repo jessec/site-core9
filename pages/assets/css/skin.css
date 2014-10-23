@@ -1,0 +1,16 @@
+
+body {
+  background-color: #fff;
+}
+
+header {
+  	background-image: url('../images/placeholders/menu_background_(14x125).jpg');
+  	height: 140px;
+	text-align: center;
+	background-repeat: repeat-x;
+}
+
+main {
+  background-color: #fff;
+}
+
