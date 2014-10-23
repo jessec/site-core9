@@ -1,46 +1,26 @@
-/**/
 @media only screen and (min-width : 700px) {
-	main {
-		max-width: 67em;
-		margin-top: -1.5em;
-		margin-bottom: -9em;
-	}
-	.product {
-		margin-left: 1.5em;
-		max-width: 31.3em;
-	}
-	.banner {
-		max-width: 57em;
-	}
-	
+
+
 	.video {
-		max-width: 62em;	
+
 	}
-	
+
 	.smallvideo {
-		max-width: 30em;	
 	}
-	
+
 	.text {
-		max-width: 62em;	
 	}
-	
+
 	.smalltext {
-		max-width: 30em;	
 	}
-	
+
 	.photo {
-		max-width: 62em;	
 	}
-	
+
 	.smallphoto {
-		max-width: 30em;	
 	}
 	.product-popular  {
-		max-width: 23em;
 	}
 	.article {
-		margin-left: 1.5em;
-		max-width: 42.5em;
 	}
 }

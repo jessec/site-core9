@@ -4,10 +4,11 @@
 }
 
 html {
-  font-size:62.5%;
+	font-size: 62.5%;
 }
 
 body {
+	
 }
 
 header {
@@ -20,31 +21,5 @@ main {
 	margin: 0 auto;
 	margin-top: -60px;
 	overflow: hidden;
-	padding: 15px;
-}
-
-main>footer {
-	clear: both;
-	position: relative;
-	top: 15px;
-}
-
-nav {
-}
-
-figure {
-  margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-article {
-  margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
-footer {
-	height: 140px;
+	padding: 1.7em;
 }
