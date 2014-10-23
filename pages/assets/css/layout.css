@@ -9,6 +9,7 @@
 
 .block > div {
 	 height:428px;
+	 overflow:hidden;
 }
 
 .inline {
