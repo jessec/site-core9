@@ -27,10 +27,28 @@ document.createElement( "picture" );
 	<aside role="complementary" class="css-slideshow block slider" data-type="slider">
 		<figure class="flexslider">
 			<ul class="slides">
-				<li><img src="http://placehold.it/940x430" /></li>
-<!-- 				<li><img src="http://placehold.it/940x430" /></li>
-				<li><img src="http://placehold.it/940x430" /></li>
-				<li><img src="http://placehold.it/940x430" /></li> -->
+				<li>
+				<picture>
+				  <source
+				    media="(min-width: 1280px)"
+				    sizes="50vw"
+				    srcset="http://placehold.it/200x430 200w,
+				        http://placehold.it/400x430 400w,
+				        http://placehold.it/800x430 800w,
+				        http://placehold.it/1200x430 1200w,
+				        http://placehold.it/1600x430 1600w,
+				        http://placehold.it/2000x430 2000w">
+				  <img
+				    src="http://placehold.it/400x430" alt="The Oslo Opera House"
+				    sizes="(min-width: 640px) 60vw, 100vw"
+				    srcset="http://placehold.it/200x430 200w,
+				        http://placehold.it/400x430 400w,
+				        http://placehold.it/800x430 800w,
+				        http://placehold.it/1200x430 1200w,
+				        http://placehold.it/1600x430 1600w,
+				        http://placehold.it/2000x430 2000w">
+				</picture>
+				</li>
 			</ul>
 		</figure>
 	</aside>
