@@ -1,0 +1,53 @@
+@media only screen and (min-width : 975px) {
+	main {
+	max-width: 94.5em;
+	margin-top: -1.5em;
+	margin-bottom: -9em;
+	}
+	.product-nav {
+		max-width: 26em;
+		display: block;
+	}
+	.slider {
+		margin-left: 1.5em;
+	}
+	.products {
+		margin-left: 1.5em;
+		max-width: 67em;
+	}
+	.product {
+		margin-left: 1.5em;
+		max-width: 31.3em;
+	}
+	.product-popular  {
+		max-width: 26em;
+	}
+	.article {
+		margin-left: 1.5em;
+		max-width: 67em;
+	}
+	
+	.video {
+		max-width: 62em;	
+	}
+	
+	.smallvideo {
+		max-width: 30em;	
+	}
+	
+	.text {
+		max-width: 62em;	
+	}
+	
+	.smalltext {
+		max-width: 30em;	
+	}
+	
+	.photo {
+		max-width: 62em;	
+	}
+	
+	.smallphoto {
+		max-width: 30em;	
+	}
+}
