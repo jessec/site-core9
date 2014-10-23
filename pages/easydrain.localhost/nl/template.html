@@ -8,8 +8,49 @@
 <link href="/site/assets/css/font.css" rel="stylesheet" />
 <link href="/site/assets/css/layout.css" rel="stylesheet" />
 <link href="/site/assets/css/breakpoints/media-queries.css" rel="stylesheet" />
-<link href="/site/assets/css/slider.css" rel="stylesheet" />
 <link href="/site/assets/css/skin.css" rel="stylesheet" />
+<style>
+ul.css-slideshow {
+   overflow:hidden;
+   height:430px;
+}
+.css-slideshow li{
+   margin: 0;
+   position: absolute;
+
+}
+
+.css-slideshow li{
+   opacity:0;
+}
+
+li:nth-child(1) {
+   animation: xfade 48s 40s infinite;
+}
+li:nth-child(2) {
+   animation: xfade 48s 20s infinite;
+}
+li:nth-child(3) {
+   animation: xfade 48s 0s infinite;
+}
+@keyframes xfade{
+   0%{
+      opacity: 1;
+   }
+   10.5% {
+      opacity:1;
+   }
+   12.5%{
+      opacity: 0;
+   }
+   98% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+}
+</style>
 <script>
   document.createElement("picture");
 </script>
