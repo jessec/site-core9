@@ -1,9 +1,10 @@
 main {
-	max-width: 63.4em;
+	max-width: 30em;
 }
 
 .right {
-	margin-right: 3.3em;
+  margin-left: 0em;
+	margin-right: 0em;
 }
 
 .left {

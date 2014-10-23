@@ -1,19 +1,18 @@
-
 body {
-  background-color: #fff;
+	background-color: #fff;
 }
 
 header {
-  	background-image: url('../images/placeholders/menu_background_(14x125).jpg');
-  	height: 140px;
+	background-image:
+		url('../images/placeholders/menu_background_(14x125).jpg');
 	text-align: center;
 	background-repeat: repeat-x;
 }
 
 main {
-  background-color: #cca;
+	background-color: #cca;
 }
 
-.block > div {
-  border: 1px solid #ccc;
+.block>div {
+	border: 1px solid #ccc;
 }

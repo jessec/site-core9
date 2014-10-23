@@ -2,21 +2,19 @@
 	max-width: 100%;
 }
 
-.smallvideo {
-	max-width: 30em;
-}
-
 .text {
 	max-width: 65.3em;
 }
 
-.text>div {
-	float: left;
-	width: 65.3em;
-	overflow: hidden;
+.smalltext {
+	max-width: 30em;
 }
 
-.smallphoto {
+.video {
+	max-width: 65.3em;
+}
+
+.smallvideo {
 	max-width: 30em;
 }
 
@@ -24,10 +22,6 @@
 	max-width: 65.3em;
 }
 
-.video {
-	max-width: 65.3em;
-}
-
-.smalltext {
+.smallphoto {
 	max-width: 30em;
 }
