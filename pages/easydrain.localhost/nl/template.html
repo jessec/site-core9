@@ -11,7 +11,7 @@
 <link href="/site/assets/css/breakpoints/media-queries.css" rel="stylesheet" />
 <link href="/site/assets/css/skin.css" rel="stylesheet" />
 <script>
-document.createElement( "picture" );
+	document.createElement("picture");
 </script>
 <script src="/site/assets/js/picturefill.js" async></script>
 </head>
@@ -29,29 +29,31 @@ document.createElement( "picture" );
 			<ul class="slides">
 				<li>
 				<picture>
-				  <source
-				    media="(min-width: 350px)"
-				    sizes="50vw"
-				    srcset="http://placehold.it/200x430 200w,
-				        http://placehold.it/400x430 400w,
-				        http://placehold.it/800x430 800w">
-				  <img
-				    src="http://placehold.it/400x430" alt="The Oslo Opera House"
-				    sizes="(min-width: 350px) 60vw, 100vw"
-				    srcset="http://placehold.it/200x430 200w,
-				        http://placehold.it/400x430 400w,
-				        http://placehold.it/800x430 800w">
-				</picture>
+				  <!--[if IE 9]><video style="display: none;"><![endif]-->
+					<source srcset="https://placeimg.com/970/430/arch,
+					                https://placeimg.com/970/430/arch 2x"
+					                 media="(min-width: 1004px)">
+					<source srcset="https://placeimg.com/634/430/arch,
+					                https://placeimg.com/634/430/arch 2x"
+					                media="(min-width: 704px)">
+				  <source srcset="https://placeimg.com/300/430/arch,
+                          https://placeimg.com/300/430/arch 2x"
+                          media="(min-width: 350px)">
+					<!--[if IE 9]></video><![endif]-->
+					<img srcset="https://placeimg.com/300/430/arch,
+					             https://placeimg.com/300/430/arch 2x"
+					             alt="A giant stone face at The ">
+					</picture>
 				</li>
 			</ul>
 		</figure>
 	</aside>
 
-  <article class="block video left" data-type="video">
-    <div class="">
-      <img src="http://www.easydrain.nl/media/wysiwyg/Homepage/About/Refences/markthal-rotterdam-01.jpg">
-    </div>
-  </article>
+	<article class="block video left" data-type="video">
+		<div class="">
+			<img src="http://www.easydrain.nl/media/wysiwyg/Homepage/About/Refences/markthal-rotterdam-01.jpg">
+		</div>
+	</article>
 
 	<article class="block smallvideo right" data-type="smallvideo">
 		<div>
@@ -64,28 +66,31 @@ document.createElement( "picture" );
 			<h1>Elounda Beach</h1>
 			<h2>Hemel op aarde</h2>
 			<p class="intro"></p>
-			<p>Elounda Beach resort is een klein stukje hemel op aarde in Kreta, Griekenland. Dit luxueuze vakantieoord, gelegen aan de helder blauwe Middellandse zee, biedt gasten het ultieme gevoel van
-				ontspanning met excellente persoonlijke service. Elounda Beach omvat verschillende mini resorts met state-of-the-art villa’s. Deze villa’s zijn uiterst exclusief uitgevoerd, inclusief
-				barrièrevrije douches met Easy Drain douchegoten.</p>
+			<p>Elounda Beach resort is een klein stukje hemel op aarde in Kreta, Griekenland. Dit luxueuze vakantieoord,
+				gelegen aan de helder blauwe Middellandse zee, biedt gasten het ultieme gevoel van ontspanning met excellente
+				persoonlijke service. Elounda Beach omvat verschillende mini resorts met state-of-the-art villa’s. Deze villa’s zijn
+				uiterst exclusief uitgevoerd, inclusief barrièrevrije douches met Easy Drain douchegoten.</p>
 			<p></p>
 		</div>
 	</article>
 
 	<article class="block video right" data-type="video">
-    <div>
+		<div>
 			<iframe width="100%" height="315" src="//www.youtube.com/embed/-4DgANeQjWw" frameborder="0" allowfullscreen></iframe>
-			<p>If there's a microphone anywhere near you, assume it's hot and sending whatever you're saying to the world. Seriously.</p>
+			<p>If there's a microphone anywhere near you, assume it's hot and sending whatever you're saying to the world.
+				Seriously.</p>
 		</div>
 	</article>
 
 	<article class="block photo left" data-type="photo">
-    <div>
+		<div>
 			<h1>Elounda Beach</h1>
 			<h2>Hemel op aarde</h2>
 			<p class="intro"></p>
-			<p>Elounda Beach resort is een klein stukje hemel op aarde in Kreta, Griekenland. Dit luxueuze vakantieoord, gelegen aan de helder blauwe Middellandse zee, biedt gasten het ultieme gevoel van
-				ontspanning met excellente persoonlijke service. Elounda Beach omvat verschillende mini resorts met state-of-the-art villa’s. Deze villa’s zijn uiterst exclusief uitgevoerd, inclusief
-				barrièrevrije douches met Easy Drain douchegoten.</p>
+			<p>Elounda Beach resort is een klein stukje hemel op aarde in Kreta, Griekenland. Dit luxueuze vakantieoord,
+				gelegen aan de helder blauwe Middellandse zee, biedt gasten het ultieme gevoel van ontspanning met excellente
+				persoonlijke service. Elounda Beach omvat verschillende mini resorts met state-of-the-art villa’s. Deze villa’s zijn
+				uiterst exclusief uitgevoerd, inclusief barrièrevrije douches met Easy Drain douchegoten.</p>
 			<p></p>
 		</div>
 
@@ -106,7 +111,7 @@ document.createElement( "picture" );
 
 
 	<article class="block video right" data-type="video">
-    <div>
+		<div>
 			<img src="http://www.easydrain.nl/media/wysiwyg/Homepage/About/Refences/markthal-rotterdam-01.jpg">
 		</div>
 	</article>
