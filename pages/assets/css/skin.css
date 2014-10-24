@@ -14,5 +14,31 @@ main {
 }
 
 .block>div {
+
+}
+
+.video {
+	border: 1px solid #ccc;
+}
+
+.smallvideo {
+	border: 1px solid #ccc;
+}
+
+.text {
+	border: 1px solid #ccc;
+  padding: 1.5em;
+}
+
+.smalltext {
+	border: 1px solid #ccc;
+	padding: 1.5em;
+}
+
+.photo {
+	border: 1px solid #ccc;
+}
+
+.smallphoto {
 	border: 1px solid #ccc;
 }
