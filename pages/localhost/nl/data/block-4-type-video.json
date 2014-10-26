@@ -8,9 +8,9 @@
   },
   "meta":{
     "template":"site\/blocks\/block-video\/video\/tpl\/site-block-video.soy",
-    "block":"0",
+    "block":"4",
     "state":"edit",
-    "absolute-url":"http:\/\/easydrain.localhost:8080\/scraper\/nl",
+    "absolute-url":"http:\/\/localhost:8080\/nl",
     "type":"video"
   }
 }
