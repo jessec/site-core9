@@ -7,10 +7,10 @@
     "height":"315"
   },
   "meta":{
-    "template":"site\/blocks\/block-video\/slider\/tpl\/site-block-slider.soy",
-    "block":"0",
+    "template":"site\/blocks\/block-video\/smallphoto\/tpl\/site-block-smallphoto.soy",
+    "block":"2",
     "state":"edit",
     "absolute-url":"http:\/\/localhost:8080\/nl",
-    "type":"slider"
+    "type":"smallphoto"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "data":{
+    "width":"560",
+    "title":"title",
+    "url":"http:\/\/youtu.be\/kDfw4yt554g",
+    "content":"content",
+    "height":"315"
+  },
+  "meta":{
+    "template":"site\/blocks\/block-video\/video\/tpl\/site-block-video.soy",
+    "block":"7",
+    "state":"edit",
+    "absolute-url":"http:\/\/easydrain.localhost:8080\/scraper\/nl",
+    "type":"video"
+  }
+}

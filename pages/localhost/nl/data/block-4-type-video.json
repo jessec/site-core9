@@ -7,10 +7,10 @@
     "height":"315"
   },
   "meta":{
-    "template":"site\/blocks\/block-video\/slider\/tpl\/site-block-slider.soy",
+    "template":"site\/blocks\/block-video\/video\/tpl\/site-block-video.soy",
     "block":"0",
     "state":"edit",
-    "absolute-url":"http:\/\/localhost:8080\/nl",
-    "type":"slider"
+    "absolute-url":"http:\/\/easydrain.localhost:8080\/scraper\/nl",
+    "type":"video"
   }
 }
