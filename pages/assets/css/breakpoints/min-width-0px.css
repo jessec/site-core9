@@ -34,6 +34,9 @@
 	height: 43em;
 	max-width: 65.1em;
 }
+.photo>div {
+  height: 33em;
+}
 
 .smallphoto {
 	height: 43em;
