@@ -1,10 +1,6 @@
 {
   "data":{
-    "width":"560",
-    "title":"title",
-    "url":"http:\/\/youtu.be\/kDfw4yt554g",
-    "content":"content",
-    "height":"315"
+    "url":"/site/assets/images/placeholders/Slider_top_(940x430).jpg"
   },
   "meta":{
     "template":"site\/blocks\/block-video\/photo\/tpl\/site-block-photo.soy",
