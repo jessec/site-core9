@@ -1,0 +1,14 @@
+{
+  "data":{
+    "title":"title",
+    "photourl":"http:\/\/youtu.be\/kDfw4yt554g",
+    "content":"content"
+  },
+  "meta":{
+    "template":"site\/blocks\/block-video\/smallphoto\/tpl\/site-block-smallphoto.soy",
+    "block":"6",
+    "state":"edit",
+    "absolute-url":"http:\/\/localhost:8080\/nl",
+    "type":"smallphoto"
+  }
+}

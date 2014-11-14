@@ -1,0 +1,12 @@
+{
+  "data":{
+    "url":"/site/assets/images/placeholders/Slider_top_(940x430).jpg"
+  },
+  "meta":{
+    "template":"site\/blocks\/block-video\/photo\/tpl\/site-block-photo.soy",
+    "block":"1",
+    "state":"edit",
+    "absolute-url":"http:\/\/localhost:8080\/nl",
+    "type":"photo"
+  }
+}

@@ -1,0 +1,55 @@
+.slider {
+	max-width: 100%;
+}
+
+.anythingslider {
+	max-width: 94em;
+	padding: 2em;
+}
+
+.text {
+	height: 40em;
+	max-width: 59.6em;
+	padding: 1.5em;
+}
+
+.smalltext {
+	height: 40em;
+	max-width: 26.3em;
+}
+
+.video {
+	height: 43em;
+	max-width: 62.6em;
+}
+
+.video>div {
+	height: 33em;
+}
+
+.smallvideo {
+	height: 43em;
+	max-width: 29.3em;
+}
+
+.smallvideo>div {
+	height: 33em;
+}
+
+.photo {
+	height: 43em;
+	max-width: 62.6em;
+}
+
+.photo>div {
+	height: 33em;
+}
+
+.smallphoto {
+	height: 43em;
+	max-width: 29.3em;
+}
+
+.smallphoto>div {
+	height: 33em;
+}
