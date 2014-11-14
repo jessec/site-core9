@@ -11,6 +11,10 @@
     "template":"site/blocks/block-video/slider/tpl/site-block-slider.soy",
     "steps":"site/blocks/block-video/slider/steps/steps.json"
   },
+    "anythingslider":{
+    "template":"site/blocks/block-video/anythingslider/tpl/site-block-anythingslider.soy",
+    "steps":"site/blocks/block-video/anythingslider/steps/steps.json"
+  },
     "smallvideo":{
     "template":"site/blocks/block-video/smallvideo/tpl/site-block-smallvideo.soy",
     "steps":"site/blocks/block-video/smallvideo/steps/steps.json"
