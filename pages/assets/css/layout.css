@@ -19,7 +19,7 @@ main {
 	max-width: 96em;
 }
 
-.block {
+.core9-block {
 	margin-top: 1.7em;
 	overflow: hidden;
 	float: left;
@@ -27,7 +27,7 @@ main {
 	background-color: #fff;
 }
 
-.block>div {
+.core9-block>div {
 	height: 42.8em;
 	overflow: hidden;
 }
