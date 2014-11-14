@@ -255,6 +255,12 @@ jQuery(document)
             autoPlay : false,
             onInitialized : function(e, slider) {
               currentTime = rightNow();
+            	    $("a.next-slide").click(function(){
+            	        slider.goForward();
+            	    });
+            	    $("a.prev-slide").click(function(){
+            	        slider.goBack();
+            	    });
             }
           })
           // Initialize video extension
