@@ -1,4 +1,8 @@
 {
+  "menus":{
+    "template":"site/blocks/block-video/menus/tpl/site-block-menus.soy",
+    "steps":"site/blocks/block-video/menus/steps/steps.json"
+  },
   "basic":{
     "template":"site/blocks/block-video/text/tpl/video.soy",
     "steps":"site/blocks/block-video/text/steps/steps.json"
