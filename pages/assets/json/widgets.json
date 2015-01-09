@@ -38,5 +38,9 @@
     "smalltext":{
     "template":"site/blocks/block-video/smalltext/tpl/site-block-smalltext.soy",
     "steps":"site/blocks/block-video/smalltext/steps/steps.json"
+  },
+    "varbrowserdevice":{
+    "template":"site/blocks/block-video/varbrowserdevice/tpl/site-block-varbrowserdevice.soy",
+    "steps":"site/blocks/block-video/varbrowserdevice/steps/steps.json"
   }
 }
