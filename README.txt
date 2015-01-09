@@ -32,7 +32,8 @@ Toevoeging mijn punten:
 
 *         Voorbeeld CSS mega menu met afbeeldingen uitwerken
 
-*         Invulling homepage qua tekst&structuur (wijziging niet ten koste van Google rankings)
+*         Invulling homepage qua tekst structuur (wijziging niet ten koste van Google rankings)
 
 *         Toesturen van print screen van functionaliteit/interface mogelijkheden
+
 
